@@ -33,7 +33,7 @@ function HomePages() {
  return (
  <View
  style={
- dataPassing.dataNama.id % 2 === 1
+ dataPassing.dataNama.nim % 2 === 1
  ? HomeStyle.itemListContainerGanjil
  : HomeStyle.itemListContainerGenap
  }>
